@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*section1 start header*/
+
+header{
+    background-color: #082a8c;
+}
+
+nav section{
+    float: left;
+    width: calc(100% / 2 - 10px);
+    margin: 5px;
+    padding: 0px;
+}
+
+.item-nav-logo .logo{
+    float: left;
+    width: calc(100% / 2 - 10px);
+    margin: 5px;
+    padding: 20px;
+}
+
+.item-nav-link .link{
+    float: left;
+    width: calc(100% / 5 - 20px);
+    margin: 10px;
+    padding: 15px;
+}
+
+.link-style{
+    color: white;
+    text-decoration: none;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.item-head,.work,footer{
+    background-color: #082a8c;
+}
+
+.item-head div{
+    float: left;
+    width: calc(100% / 2 - 10px);
+    margin: 5px;
+    padding: 10px;
+}
+
+.item-head-text h1 {
+    color: #01ffd4;
+    padding-left: 50px;
+    padding-bottom: 27px;
+    margin: 0px;
+}
+
+.item-head-text p{
+    padding-left: 50px;
+    padding-bottom: 50px;
+    color: #a0bad1;
+}
+
+.item-head-text a{
+    padding: 15px;
+    border: 1px solid wheat;
+    margin: 50px;
+    color: white;
+    text-decoration: none;
+}
+/*end header*/
+
+/*section2 clients*/
+
+.clients, .team{
+    background-color: #f4f4f4;
+}
+
+.clients-item h3{
+    border-bottom: 1px solid #cecece;
+    padding: 15px;
+    width: 255px;
+    margin: auto;
+    color: #cecece;
+}
+
+.clients-logo div{
+    float: left;
+    width: calc(100% / 6 - 30px);
+    margin: 15px;
+    padding: 30px;
+}
+
+/*section3 services*/
+
+.services-text h3{
+    border-bottom: 1px solid #cecece;
+    padding: 15px;
+    width: 127px;
+    margin: auto;
+    color: #cecece;
+}
+
+.services-item div{
+    float: left;
+    width: calc(100% / 3 - 30px);
+    margin: 15px;
+    padding: 30px;
+    text-align: center;
+}
+
+.services h1, .work-item h1{
+    padding: 20px;
+}
+
+.services p, .work-item p{
+    width: 300px;
+    margin: auto;
+    padding-bottom: 45px;
+}
+
+/*section4 work*/
+
+.work-text h3{
+    border-bottom: 1px solid #5d56a9;
+    padding: 15px;
+    width: 145px;
+    margin: auto;
+    color: #5d56a9;
+}
+
+.text{
+    width: 500px;
+    margin: auto;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.text b{
+    color: #01ffd4;
+}
+
+.parent-item .work-item{
+    float: left;
+    width: calc(100% / 3 - 30px);
+    margin: 15px;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+}
+
+.work-item h5{
+    padding: 10px;
+    border-bottom: 1px solid #cecece;
+    width: 110px;
+    margin: auto;
+}
+
+.work-item a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    background-color: black;
+    width: 100px;
+}
+
+/*section5 team*/
+
+.team-text h3{
+    border-bottom: 1px solid #cecece;
+    padding: 15px;
+    width: 160px;
+    margin: auto;
+    color: #cecece;
+}
+
+.team-p div{
+    float: left;
+    width: calc(100% / 3 - 30px);
+    margin: 15px;
+    padding: 30px;;
+    text-align: center;
+}
+
+.team-p h2{
+    padding: 10px;
+    color: #5e5fdb;
+    
+}
+
+/*section6*/
+
+.source-text h3{
+    width: 200px;
+    margin: auto;
+    padding: 10px;
+    border-bottom: 1px solid #cecece;
+    color: #cecece;
+}
+
+.source-item{
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+}
+
+.source-item h1{
+    width: 250px;
+    margin: auto;
+    padding: 20px;
+}
+
+.source-item a{
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid #cecece;
+    color: black;
+}
+
+/*footer section*/
+
+.foot div{
+    float: left;
+    width: calc(100% / 4 - 30px);
+    margin: 15px;
+    padding: 30px;
+    color: white;
+}
+
+.foot ul li a{
+    padding: 5px;
+    color :#9a96ca;
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
